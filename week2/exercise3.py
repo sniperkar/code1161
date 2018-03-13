@@ -21,11 +21,12 @@ def fix_it(moves=True, should_move=True):
     "Duct Tape"
     "No Problem"
     """
-
     if moves is True:
         if should_move is True:
+            return "No Problem"
         else:
             return "Duct Tape"
+    else:
         if should_move is True:
             return "WD-40"
         else:
