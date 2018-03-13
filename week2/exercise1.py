@@ -14,7 +14,7 @@ print("hello! Let's get started")  # it printed "hello! Let's get started"
 some_words = ['what', 'does', 'this', 'line', 'do', '?']
 
 for word in some_words:
-    print(word)
+    print(some_words)
 
 for x in some_words:
     print(x)
@@ -23,7 +23,7 @@ print(some_words)
 
 if len(some_words) > 3:
     print('some_words contains more than 3 words')
-
+print('a_number >=3')
 def usefulFunction():
     """
     You may want to look up what uname does before you guess
